@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>winDialog</class>
+ <widget class="QDialog" name="winDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>977</width>
+    <height>674</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+    background-color: lightblue;
+    qproperty-alignment: 'AlignCenter';
+
+
+}
+QLabel{ 
+font-size : 28px; 
+font- color : white;
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #ffffff;
+    background: transparent;
+    font-size:  70px;         
+    font-weight: 800;       
+    letter-spacing: 2px;   
+    font-family: &quot;Orbitron&quot;, &quot;Poppins&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;;
+    qproperty-alignment: 'AlignCenter';
+}</string>
+       </property>
+       <property name="text">
+        <string>Congragulations </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #ffffff;
+    background: transparent;
+    font-size:  56px;         
+    font-weight: 800;       
+    letter-spacing: 2px;   
+    font-family: &quot;Orbitron&quot;, &quot;Poppins&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;;
+    qproperty-alignment: 'AlignCenter';
+}</string>
+       </property>
+       <property name="text">
+        <string>You won!</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+    color: #ffffff;
+    background: transparent;
+    font-size:  56px;         
+    font-weight: 800;       
+    letter-spacing: 2px;   
+    font-family: &quot;Orbitron&quot;, &quot;Poppins&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;;
+    qproperty-alignment: 'AlignCenter';
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    color: #e0e0e0;
+    background-color: #2b2f4a;         
+    font-size: 30px;
+    font-weight: 800;
+    font-family: &quot;Orbitron&quot;, &quot;Poppins&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;;
+    padding: 8px , 16px;
+    border-radius: 12px;
+    border: 3px solid lightblue;        
+    letter-spacing: 1.5px;
+}
+
+QPushButton:hover {
+    background-color: #3a3f5c;
+    color: #ffffff;
+    border: 2px solid #5ef1f3;
+}
+
+QPushButton:pressed {
+    background-color: #22263b;
+    padding-left: 16px;
+    padding-top: 16px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Return</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="2">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>40</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

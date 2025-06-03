@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HomeScreen</class>
+ <widget class="QWidget" name="HomeScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>986</width>
+    <height>598</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background: qlineargradient(
+        x1: 0, y1: 0, x2: 1, y2: 1,
+        stop: 0 #2c3e50,
+        stop: 1 #3498db
+    );
+}
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>111</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+    color: #ffffff;
+    background: transparent;
+    font-size:  200px;         
+    font-weight: 800;       
+    letter-spacing: 2px;   
+    font-family: &quot;Orbitron&quot;, &quot;Poppins&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;;
+    qproperty-alignment: 'AlignCenter';
+}</string>
+     </property>
+     <property name="text">
+      <string>Sudoku</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1" rowspan="2">
+    <widget class="QPushButton" name="Start">
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    color: #e0e0e0;
+    background-color: #2b2f4a;         
+    font-size: 22px;
+    font-weight: 800;
+    font-family: &quot;Orbitron&quot;, &quot;Poppins&quot;, &quot;Segoe UI&quot;, &quot;Arial&quot;;
+    padding: 14px 28px;
+    border-radius: 12px;
+    border: 2px solid #3ddad9;        
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+QPushButton:hover {
+    background-color: #3a3f5c;
+    color: #ffffff;
+    border: 2px solid #5ef1f3;
+}
+
+QPushButton:pressed {
+    background-color: #22263b;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Start</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>110</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="0">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Orientation::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>110</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="4" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Orientation::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>110</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
